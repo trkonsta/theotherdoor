@@ -1,0 +1,82 @@
+body{
+  text-align:center;
+}
+
+.scene{
+  width:700px;
+  height:400px;
+  margin:auto;
+  background-image:url("static/whiteroom.avif"); /*need to figure out how to upload this file into this repository*/
+  background-size:contain;
+  border-radius:5px;
+  position:relative;
+  background-repeat:no-repeat;
+  text-align:center;
+}
+
+.door{
+  height:250px;
+  margin-top:auto;
+  display:inline-block;
+  text-align:center;
+}
+
+
+.jon{
+  height:250px;
+  top:150px;
+  right:120px;
+  position:absolute;
+  text-align:center;
+  margin:auto;
+}
+
+p{
+  font-family: "Inconsolata", monospace;
+  padding:10px;
+}
+
+.story{
+  width:700px;
+  display:inline-block;
+  text-align:left;
+  line-height:1.5;
+  background-color:#e0dede;
+  border-radius:5px;
+}
+
+a{
+  font-family: "Anton", sans-serif;
+  color:#4d4b4b;
+}
+
+.spider{
+  height:300px;
+  margin-top:80px;
+  margin-left:50px;
+  display:inline-block;
+  background-image:url("spider.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  text-align:center;
+}
+
+stats{
+  width:300px;
+  line-height:1.5;
+  text-align:center;
+  background-color:black;
+
+}
+
+#ruin{
+  position:fixed;
+  bottom:30px;
+  left:30px;
+}
+
+#story{
+  position:fixed;
+  bottom:110px;
+  left:30px;
+}
